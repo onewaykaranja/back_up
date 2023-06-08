@@ -14,7 +14,7 @@ backup_file="logs_backup_$timestamp.tar.gz"
 # Archive the logfiles
 tar -zcf "$backup_directory/$backup_file" "$source_directory"
 
-# Confirm
+# Confirmation
 if [ $? -eq 0 ]; then
     echo "Logs backup created successfully: $backup_directory/$backup_file"
 else
