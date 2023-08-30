@@ -16,7 +16,7 @@ tar -zcf "$backup_directory/$backup_file" "$source_directory"
 
 # Confirmation
 if [ $? -eq 0 ]; then
-    echo "Logs backup created successfully: $backup_directory/$backup_file"
+    echo "Log backup created successfully: $backup_directory/$backup_file"
 else
-    echo "Failed to create logs backup."
+    echo "Failed to create log backup."
 fi
